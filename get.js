@@ -6,6 +6,7 @@ const client = new DoorDashClient({
     key_id: process.env.KEY_ID,
     signing_secret: process.env.SIGNING_SECRET,
 });
+console.log("🚀 ~ file: get.js ~ line 9 ~ client", client)
 
 const response = client 
     .getDelivery("7293d871-d52b-4491-b180-b8c91810ac8b")
