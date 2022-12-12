@@ -19,5 +19,3 @@ function getFormValues(){
     console.log(payload);
     return payload;
 }
-
-getFormValues();
